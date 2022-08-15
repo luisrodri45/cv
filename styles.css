@@ -4,10 +4,14 @@
     padding: 0;
     line-height: 1.15; /* 1 */
 }
+a{
+    text-decoration: none;
+    color: #aaf;
+}
 p,a,input,button,li,select,label{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-h1,h2,h3{
+h1,h2,h3,h4{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     width: 100%;
@@ -24,6 +28,10 @@ h3{
     color: #6af;
     margin: 10px 0px;
 }
+h4{
+    color: #bff;
+    text-align: left;
+}
 input,label,select,button{
     font-size: 15px;
 }
@@ -32,13 +40,79 @@ img{
 }
 a{
     text-decoration: none;
+    color: #c6c6ed;
 }
 span{
-    color: #aaf;
+    color: #ccf;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 li{
     list-style: none;
+}
+.exp{
+    margin-left: 40px;
+    padding: 5px 0px;
+    list-style: circle;
+    color: #aff;
+}
+.link{
+    color: #aff;
+    text-decoration: none;
+}
+.tec{
+    color: #62f;
+    font-weight: 500;
+}
+.personalLi{
+    margin: 10px;
+}
+.icon{
+    margin:0px 5px;
+}
+/*Barras*/
+.barra{
+    border-radius: 5px;
+    border: 2px solid #acf;
+    height: 30px;
+    width: 100%;
+    background: #45f;
+    margin: 10px;
+    display: flex;
+}
+.porcentaje{
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    background: rgb(2,0,36);
+background: linear-gradient(195deg, rgba(2,0,36,1) 7%, rgba(9,9,121,1) 31%, rgba(0,212,255,1) 81%);
+    width: 30%;
+    height: 100%;
+    text-align: right;
+    padding: 3px 5px;
+}
+.porcentaje.full{
+    width: 100%;
+}
+.porcentaje.nofull{
+    width: 70%;
+}
+/**/
+.info{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #007;
+}
+.sub{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    color: #7b1694;
+}
+.tecnologias{
+    width: 100%;
+}
+.imgTec{
+    object-fit: fill;
+    width: 150px;
+    height: 140px;
 }
 /*Section(seccion 3)*/
 body{

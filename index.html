@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi perfil</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/11ab96dbec.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <section class="seccionPerfil">
@@ -14,39 +15,33 @@
             <div class="infoPersonal">
                 <img src="perfil.jpg" alt="">
                 <div class="infoPer">
-                    <h3>Acerca de mi</h3>
-                    <p>Me considero una persona bastante razonable, con capacidad de resolver problemas y mantener la calma ante los momentos mas dificiles</p>
-                </div>
-                <div class="infoPer">
-                    <h3>Domicilio</h3>
+                    <h3>Datos personales</h3>
                     <ul>
-                        <li><span>Calle:</span>Belgrano N°57</li>
-                        <li><span>Localidad:</span>San Salvador de Jujuy</li>
-                        <li><span>Provincia:</span>Jujuy</li>
-                        <li><span>Pais:</span>Argentina</li>
-                    </ul>
-                </div>
-                <div class="infoPer">
-                    <h3>Contacto</h3>
-                    <ul>
-                        <li><span>Gmail:</span><br> luisedurodriguez2014@gmail.com</li>
-                        <li><span>Facebook:</span>Luis Rodriguez</li>
-                        <li><span>Celular:</span>3884625701</li>
+                        <li class="personalLi"><i class="fa-solid fa-user icon"></i><span>Nombre y apellidos:</span> Luis Eduardo Rodriguez</li>
+                        <li class="personalLi"><i class="fa-solid fa-at icon"></i><span>Email:</span> luisedurodriguez2014@gmail.com</li>
+                        <li class="personalLi"><i class="fa-solid fa-phone icon"></i><span>Teléfono fijo:</span> 4281349</li>
+                        <li class="personalLi"><i class="fa-solid fa-comment-sms icon"></i><span>Teléfono celular: </span> 3884625701</li>
+                        <li class="personalLi"><i class="fa-solid fa-box-archive icon"></i><span>Repositorios: </span><a href="https://github.com/luisrodri45?tab=repositories" target="_blank">Repositorios de Github</a></li>
+                        <li class="personalLi"><i class="fa-brands fa-github icon"></i><span>Github: </span><a href="https://github.com/luisrodri45" target="_blank">luisrodri45</a></li>
+                        <li class="personalLi"><i class="fa-brands fa-facebook icon"></i><span>Facebook: </span><a href="https://www.facebook.com/profile.php?id=100006839978812" target="_blank"   >Luis Rodriguez</a></li>
                     </ul>
                 </div>
                 <div class="infoPer">
                     <h3>Idiomas</h3>
-                    <ul>
-                        <li><span>Español:</span>Si</li>
-                        <li><span>Ingles:</span>Si</li>
-                    </ul>
+                    <h4>Español</h4>
+                    <div class="barra">
+                       <div class="porcentaje full">100</div>
+                    </div>
+                    <h4>Ingles</h4>
+                    <div class="barra">
+                        <div class="porcentaje nofull">70</div>
+                    </div>
                 </div>
                 <div class="infoPer">
-                    <h3>Aptitudes</h3>
+                    <h3>Otros datos de interes</h3>
                     <ul>
-                        <li><b>Trabajo en equipo</b></li>
-                        <li><b>Resolucion de problemas</b></li>
-                        <li><b>Iniciativa</b></li>
+                        <li class="exp"> Tengo disponibilidad para viajar de forma nacional. </li>
+                        <li class="exp"> No poseo carnet de conducir ni coche. </li>
                     </ul>
                 </div>
             </div>
@@ -55,28 +50,59 @@
                 <div class="infoPro">
                     <h3>Perfil profesional</h3>
                     <p>
-                        Programador web, estoy capacitado para Programar, documentar, instalar, poner en marcha, operar, modificar, probar, medir, mantener y transformar software en general 
-                        o incluido en sistemas informáticos, asistir al Profesional de grado informático en tareas de relevamiento y análisis y diseño de sistemas informáticos de cualquier 
-                        envergadura y participar en equipos de trabajo para desarrollo o transferencia tecnológica relacionados con la producción y/o manipulación de software..
-
+                        Soy estudiante analista programador terminando el último año de la carrera en la facultad de ingeniería de Jujuy, con habilidades en la creación de páginas web,
+                        web apps, análisis de sistemas informáticos, estoy acostumbrado a trabajar en un entorno responsable con un objetivo claro, tambien poseo conocimientos sobre diferentes
+                        lenguajes de programacion como C++, C#, Java, JavaScript y TypeScript, ademas de frameworks como Angular y Bootstrap. Mis habilidades son trabajar en equipo,
+                        aprender y adaptarme a nuevas tecnologías y tener un pensamiento analítico ante cualquier situación que se presente de tal forma de encontrar una buena solución. 
+                        Poseo un nivel básico de inglés, previamente estudié ingles en mi secundaria y en mi carrera universitaria.
                     </p>
                 </div>
                 <div class="infoPro">
-                    <h3>Formacion Academica</h3>
-                    <p>
-                        <b>Escuela de Minas: Tecnico Informatico </b><br>
-                        San Salvador de Jujuy <br>
-                        <b>Facultad de Ingenieria: Analista Programador Universitario</b><br>
-                        San Salvador de Jujuy
-                    </p>
+                    <h3>Formacion</h3>
+                    <ul>
+                        <li class="exp">Analista Programador Universitario en la Facultad de Ingenieria (en curso)</li>
+                        <li class="exp">Secundario completo con título de técnico informático en Escuela de Minas (2015-2021)</li>
+                    </ul>
                 </div>
                 <div class="infoPro">
-                    <h3>Experiencia laboral</h3>
+                    <h3>Experiencia</h3>
                     <p>
-                        Ninguna
+                        <h4>Durante mis estudios pude desarrollar aplicaciones en grupo con diferentes tecnologías como:</h4>
+                        <ul>
+                            <li class="exp"> <a href="https://github.com/Mayko2003/tpfinalpyswgrupo3" class="link" target="_blank">Aplicación web para publicar anuncios</a> <span class="tec">(Angular, Bootstrap, HTML, CSS, JavaScript)</span> </li>
+                            <li class="exp"> <a href="https://github.com/daviidlz01/TPFinalGrupo4" class="link" target="_blank">Página web para puntos de interés en el turismo</a>  <span class="tec">(Java, HTML, CSS)</span></li>
+                        </ul>
                     </p>
                 </div> 
-
+                <div class="infoPro">
+                    <h3>Informatica</h3>
+                    <ul>
+                        <ul class="info">
+                            <span class="sub">Lenguajes de programacion</span>
+                            <li class="exp">TypeScript (Medio)</li>
+                            <li class="exp">JavaScript (Medio)</li>
+                            <li class="exp">Java (Medio)</li>
+                            <li class="exp">C# (Basico)</li>
+                            <li class="exp">HTML (Medio)</li>
+                            <li class="exp">CSS (Medio)</li>
+                        </ul>
+                        <ul class="info">
+                            <span class="sub">Bases de datos</span>
+                            <li class="exp">MySQL (Basico)</li>
+                            <li class="exp">MongoDB (Medio)</li>
+                            <ul>
+                        </ul class="info">
+                            <span class="sub">Diseño</span>
+                            <li class="exp">Photoshop (Basico)</li>
+                        </ul>
+                        <ul class="info">
+                            <span class="sub">Sistemas Operativos</span>
+                            <li class="exp">Windows (Medio)</li>
+                            <li class="exp">Linux (Medio)</li>
+                        </ul>
+                        
+                    </ul>
+                </div>
             </div>
         </div>
     </section>
